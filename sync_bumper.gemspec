@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "sync_bumper"
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
   s.authors      = ["Alexey Dubovskoy"]
   s.email       = "dubovskoy.a@gmail.com"
   s.homepage    = "http://github.com/dubadub/sync_bumper"
@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.files       = Dir["{lib}/**/*", "[A-Z]*", "init.rb"] - ["Gemfile.lock"]
   s.require_path = "lib"
 
-  s.add_dependency 'em-http-request'
   s.add_development_dependency 'rails', '~> 2.3.18'
 
   s.required_rubygems_version = ">= 1.3.4"
